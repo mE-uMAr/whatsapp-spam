@@ -11,7 +11,6 @@ Send scheduled WhatsApp messages via **Selenium + Chrome**.
 ```bash
 git clone https://github.com/mE-uMAr/whatsapp-spam.git
 cd whatsapp-spam
-pip install -r requirements.txt
 ```
 
 ---
@@ -19,7 +18,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python spam.py
+uv run spam.py
 ```
 
 It will prompt:
